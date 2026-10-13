@@ -1,0 +1,6 @@
+# Never commit personal CV runs
+.hiring-panel/
+*.pdf
+!examples/*.pdf
+__pycache__/
+.DS_Store

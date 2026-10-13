@@ -1,0 +1,10 @@
+{
+  "name": "hiring-panel",
+  "version": "1.0.0",
+  "description": "Rebuild your CV with a panel of AI reviewers: ATS screen + CEO, recruiter, rival applicant, hiring manager and teammate. Blind reviews, debate, rewrite, re-check. Any languages, from existing CVs, LinkedIn PDF and GitHub.",
+  "author": { "name": "Michal Sedlák", "url": "https://github.com/pikacu100" },
+  "homepage": "https://github.com/pikacu100/hiring-panel",
+  "repository": "https://github.com/pikacu100/hiring-panel",
+  "license": "MIT",
+  "keywords": ["cv", "resume", "career", "ats", "multi-agent", "review", "skill"]
+}

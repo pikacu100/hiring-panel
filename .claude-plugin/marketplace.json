@@ -1,0 +1,15 @@
+{
+  "name": "hiring-panel",
+  "description": "Multi-agent CV/resume review panel for Claude Code.",
+  "owner": {
+    "name": "Michal Sedlák",
+    "url": "https://github.com/pikacu100"
+  },
+  "plugins": [
+    {
+      "name": "hiring-panel",
+      "source": "./",
+      "description": "Multi-agent CV review panel: ATS + 5 blind personas, debate, rewrite and sign-off, in any languages."
+    }
+  ]
+}
