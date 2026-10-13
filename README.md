@@ -41,12 +41,25 @@ Your original files are never modified.
 
 ## Install
 
-**As a plugin (recommended).** In Claude Code:
+**As a plugin (recommended).** In Claude Code, run these **one at a time**. Pasting both lines together merges them into one invalid command.
 
+1. Add the marketplace:
+   ```
+   /plugin marketplace add pikacu100/hiring-panel
+   ```
+2. Install the plugin:
+   ```
+   /plugin install hiring-panel@hiring-panel
+   ```
+
+Or install from your terminal:
+
+```bash
+claude plugin marketplace add pikacu100/hiring-panel
+claude plugin install hiring-panel@hiring-panel
 ```
-/plugin marketplace add pikacu100/hiring-panel
-/plugin install hiring-panel@hiring-panel
-```
+
+Restart Claude Code afterwards so the skill is loaded.
 
 **Manually.** Copy the skill folder into your personal skills directory:
 
